@@ -73,7 +73,7 @@ export default function ListMusic() {
                 <td>{music.attache}</td>
                 <td>{music.artist.name}</td>
                 <td>
-                    <Button variant="success" style={{ width: "100px" }} >Edit</Button>
+                    <Button variant="success" style={{ width: "100px" }}  >Edit</Button>
                     <Button variant="danger" style={{ width: "100px", marginTop: "10px" }} onClick={handleShowConfirmModal}> Delete</Button>
                 </td>
                 <Modal show={showConfirmModal} onHide={handleCloseConfirmModal} centered>
